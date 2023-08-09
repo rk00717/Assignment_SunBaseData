@@ -10,9 +10,9 @@ namespace com.RKode{
 
     [System.Serializable]
     public class ClientPersonalInfo{
-        public string address;
-        public string name;
-        public int points;
+        public string address = "N/A";
+        public string name = "N/A";
+        public int points = 0;
     }
 
     [System.Serializable]
